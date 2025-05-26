@@ -1,16 +1,17 @@
-export default function box(){
+export default function box({ values }) {
+  let styleBox = {
+    backgroundColor: "orange",
+    width: `700px`,
+    height: `700px`,
+    borderTopLeftRadius: `${values.tl}%`,
+    borderTopRightRadius: `${values.tr}%`,
+    borderBottomLeftRadius: `${values.bl}%`,
+    borderBottomRightRadius: `${values.br}%`,
+  };
 
-  let styleBox={
-    backgroundColor:"orange",
-    width:`700px`,
-    height:`700px`
-  }
-
-
-    return( 
+  return (
     <>
-    <div className="box" style={styleBox}></div>
-    
+      <div className="box" style={styleBox}></div>
     </>
-    )
+  );
 }

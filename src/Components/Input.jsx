@@ -9,7 +9,7 @@ export default function Input({ func, val, name }) {
       <input
         name={name}
         onInput={func}
-        value={val.tr}
+        value={val}
         type="range"
         min={0}
         max={100}

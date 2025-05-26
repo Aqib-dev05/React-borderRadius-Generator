@@ -5,10 +5,10 @@ import { useState } from "react";
 
 function App() {
   const [val, setVal] = useState({
-    tl: "",
-    tr: "",
-    bl: "",
-    br: "",
+    tl:0,
+    tr:0,
+    bl:0,
+    br:0,
   });
 
   function handleInput(e) {
@@ -36,7 +36,7 @@ function App() {
         <div className="bb">
           <Box values={val} />
           <p>
-            border-radius: {val.tl}px {val.tr}px {val.br}px {val.bl}px
+            border-radius: {val.tl}% {val.tr}% {val.br}% {val.bl}%
           </p>
         </div>
       </div>
