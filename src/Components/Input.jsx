@@ -3,6 +3,7 @@ export default function Input({ func, val, name }) {
     marginBottom: `30px`,
     width: `300px`,
   };
+  
 
   return (
     <>

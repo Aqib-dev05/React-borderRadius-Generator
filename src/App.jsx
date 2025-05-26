@@ -3,12 +3,13 @@ import Box from "./Components/Box.jsx";
 import Input from "./Components/Input.jsx";
 import { useState } from "react";
 
+
 function App() {
   const [val, setVal] = useState({
-    tl:0,
-    tr:0,
-    bl:0,
-    br:0,
+    tl: 0,
+    tr: 0,
+    bl: 0,
+    br: 0,
   });
 
   function handleInput(e) {

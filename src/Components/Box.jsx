@@ -7,6 +7,7 @@ export default function box({ values }) {
     borderTopRightRadius: `${values.tr}%`,
     borderBottomLeftRadius: `${values.bl}%`,
     borderBottomRightRadius: `${values.br}%`,
+    
   };
 
   return (
